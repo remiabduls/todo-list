@@ -8,7 +8,7 @@ function Todo({ text,todo, todos, setTodos }) {
         setTodos(todos.map((item) => {
             if(item.id === todo.id){
                 return {
-                    ...item
+                    ...item, completed: !item.completed
                 }
             }
         }))

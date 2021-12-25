@@ -9,8 +9,11 @@ function Todo({ text,todo, todos, setTodos }) {
             if(item.id === todo.id){
                 return {
                     ...item, completed: !item.completed
-                }
+                };
+                
             }
+            return item;
+            
         }))
     }
   

@@ -8,6 +8,7 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
+  width:50%;
 }
 header {
   font-size: 2rem;
@@ -26,6 +27,7 @@ form button {
   font-size: 2rem;
   border: none;
   background: white;
+  width:50%;
 }
 form button {
   color: #ff6f47;
@@ -41,6 +43,8 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  width:50%;
+
 }
 
 .todo-list {
